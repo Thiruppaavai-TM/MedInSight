@@ -53,8 +53,6 @@ grpcio-status
 h11
 httplib2
 hyperlink
-ibm-cloud-sdk-core
-ibm-watson
 idna
 imbalanced-learn
 incremental
