@@ -175,7 +175,3 @@ ws4py
 wsproto
 zope.interface
 
-PyQt5
-PyQt5-Qt5
-PyQt5-sip
-pyqt5-tools
