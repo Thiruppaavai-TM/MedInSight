@@ -114,7 +114,6 @@ PyJWT
 pymongo
 pyOpenSSL
 pyparsing
-pyperclip
 pypiwin32
 PyRect
 PyScreeze
