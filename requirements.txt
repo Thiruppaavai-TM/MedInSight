@@ -119,7 +119,7 @@ python-dateutil
 python-dotenv
 pyttsx3
 pytz
-pywhatkit
+
 PyYAML
 pyzmq
 qt5-applications
