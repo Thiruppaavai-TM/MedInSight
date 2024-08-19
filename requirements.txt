@@ -109,7 +109,6 @@ pydantic
 pydantic_core
 pydeck
 PyDispatcher
-PyGetWindow
 Pygments
 PyJWT
 pymongo
