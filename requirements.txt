@@ -114,7 +114,6 @@ PyJWT
 pymongo
 pyOpenSSL
 pyparsing
-pypiwin32
 PySocks
 python-dateutil
 python-dotenv
