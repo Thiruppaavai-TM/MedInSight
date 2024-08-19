@@ -171,7 +171,6 @@ watchdog
 wcwidth
 websocket-client
 Werkzeug
-wikipedia
 wrapt
 ws4py
 wsproto
