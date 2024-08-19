@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "drug-review-project",
+  "private_key_id": "627edc2546a82430917067b0f6dd97f8bf1285f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDiFl0B69G/x9wE\nnvuEOw2bsOauLhq8hMajoM4JUiv9c3L3+Fx2EQjvianXtXyTr+EiDMpqP3ra02sV\nrI3/uAXKpyiNHSCeQl8xe8fLXpOa3v9pLcM+LIJ52YsKMgGWYRlaLd94gEsZliXL\njVMV2+L6BL9WPQyZvNOhQh1tGtY7acCtyroAXjVvDDC8+s2fInvebJUQdhKfhIdR\nmcDYsko5StKnsRKxBAMGAHzUj47R45/P/Y0vU7XEi43APF9KtgkD9wVfS1lMB3FP\nTePIOM1sPj8ps5ve0UH43PntM/0772HDDI/+PpzX4NEmSu0ouqagcA7RpYj+lJub\nb38Ahz5LAgMBAAECggEAYYETi4iQZQ1krfmCr3xoWgTo96WakkMRB/CJ6ystHZl0\ns8zA04p1OBk+znDO0ULA7VZm1XubGFSlkitg8jADD2sX6gPt1VL6ivS/Lc4UCm6x\n6EJ8OYwomTRg6ny2goxNyr6N6gIqYVaH5kmE06CJOxphCmg5zvPIsXs6BZvVWLlr\naOTcqbXItzWDm69q51KJc00981UZ17goUdethUM3mH4t6vq4XjRyEesGW2npW068\nnLeYETLQuRjdhgTVL5vlqZnTtk8mZRWrA+86z4RGXTY+KgPps0wVPxwzMOFYEkyF\nEZ1XxNSUS4lhIYjb9ZWxr1haMFhmXI+Q7IxEjWn/wQKBgQD4evlre4zkCPFRW4TN\nMUTIO77kru6xf/aZ7R1p7FSZl25hoSVZD95EnTiLSRpbiz9wDKBwfss0lQk2ypxY\nGhoaJBmP4C7D3+xar+S6i6UhryPbqMvyTrt1OdpSIf9m15SOjI1UunMiD2Rl3PI8\nNyg1XNkCYGW+IH5rO2II6ZnfHwKBgQDo7efvrprOa0QBEEdZtfyQAUAL0eLZXNZQ\nbUDbHhEOXImP4gU1rAuVVujpAjd+cRoURQdGyA53FAhUgYX8bPVM8yTbJ/09DjvW\n1/tASkeuCz7OKW1jpXsX7isjues/6iVtkaEhTfjm0cgrbFORukU1ASBF+BK79+at\nnuaKXO+3VQKBgQDkCmgxnlf1R8fAtM8ySc8oPLy6v1jMifXV2mkuNviFZRamfu/5\nxrhkHC4ylkqcTTVRLiVoWNVBUq38HQJTUNE3wH29Ly98EFun9tlh4psQSN4Nz+Is\nZNlhglC9I/pzddIe6Rsj8WGMlre7TIT7gltibe2zYqi9TrD21K7qIwlWXQKBgQCl\nEdRIe0ih+EpdJpgp71ppAznMJpXIzI3kuUg5AHm9375tBRQEEUS0NL8iQbvqE2UT\n8EdT1frKUJwGpzO4y86bFcSMuy4v0qJ9gto/mWRq5vU/TQSElYVCVDqmOt+Ij/qu\nR4IVBBjcGtbsTvx6TbM1+PJSI5fDNc94Qx/F9k67cQKBgQDtNPgaDXjln+1t03nF\nRzLcdojQ3EN27DdNPRCH0HxKcR1bOFeqkFdcpqyWKCd4x9kEEezrCP8UxPCEnM4I\npakVi43vuzRXNalro6Fips1qxMB0AAe3pSsF/f6ZelBxXRoBAlUfTZmP9Kld5Isg\nU2uNtQ6/CDp4pbsxLz0s7MSxqg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "drug-data@drug-review-project.iam.gserviceaccount.com",
+  "client_id": "106562361934528299221",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drug-data%40drug-review-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+  
+}
