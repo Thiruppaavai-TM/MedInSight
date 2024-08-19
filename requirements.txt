@@ -16,9 +16,6 @@ cachetools
 certifi
 cffi
 charset-normalizer
-chatbot
-ChatterBot
-chatterbot-corpus
 click
 colorama
 comm
