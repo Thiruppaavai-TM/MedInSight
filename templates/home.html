@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home-style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="page">
+        <div class="nav">
+            <h1>dR</h1>
+            <div class="inner">
+                <a href="{{ url_for('login') }}" class="login-button">Login</a>
+            </div>
+        </div>
+        <div class="container">
+            <img src="https://img.pikbest.com/wp/202405/purpose-of-pharmaceutical-manufacturing-for-medicinal-purposes-3d-rendering-drugs-on-a-blue-backdrop_9827629.jpg!w700wp" alt="Pharmaceutical Drugs" class="img">
+            <div class="centered">
+                <div class="big">
+                    <div class="di">
+                        <h1>Drug Review</h1>
+                        <h4>“It is easy to get a thousand prescriptions, but hard to get one single remedy.”</h4>
+                    </div>
+                    <div class="con">
+                        <p>Our project aims to leverage advanced AI/ML and Generative AI techniques to analyze a comprehensive drug review dataset. This dataset includes several columns such as uniqueID, drugName, condition, review, rating, and date. Through our analysis, we aim to extract meaningful insights that can help improve patient care and inform healthcare decisions.</p>
+                        <p>We’ve trained a model called Drug Review which interacts in a conversational way. The dialogue format makes it possible for Drug Review to answer follow-up questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+                        <p>Our model ensures privacy and security services, medicinal and drug updates, consultation expenses, emergency first aids, educational purposes, and rural areas consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot">
+                To learn more follow us on 
+                <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+                <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+                <a href="#" class="fa fa-linkedin" aria-label="LinkedIn"></a>
+                <a href="#" class="fa fa-youtube" aria-label="YouTube"></a>
+                <a href="#" class="fa fa-instagram" aria-label="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

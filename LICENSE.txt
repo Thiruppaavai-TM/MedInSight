@@ -1,0 +1,9 @@
+
+### Key Points:
+
+- **Packages**: Lists all the required packages.
+- **Setup Instructions**: Instructions for setting up NLTK data and preparing datasets.
+- **Running the Code**: How to execute the script and interact with the tasks.
+- **Flask Integration**: Provides a simple Flask app setup to handle requests and integrate with the existing code. 
+
+Feel free to adjust the paths and details based on your specific setup.

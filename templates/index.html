@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Insight</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}" />
+    <style>
+        /* Additional styling to meet your requirements */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .box h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .result-box h2 {
+            margin-bottom: 10px;
+        }
+
+        .result-content pre {
+            white-space: pre-wrap; /* Ensure text wraps properly */
+            word-wrap: break-word; /* Handle long words or URLs */
+        }
+
+        .result-content img {
+            display: block;
+            margin: 20px auto; /* Center the image */
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MedInsight</h1>
+        </div>
+        <form id="medForm">
+            <div class="box">
+                <h2>Drug Review</h2>
+                <input type="text" name="review" id="review" placeholder="Enter drug review" required>
+                <h2>Drug name</h2>
+                <input type="text" name="drug_name" id="name" placeholder="Enter drug name" required>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+        <div class="result-box" id="result-box">
+            <h2>Result</h2>
+            <div id="result-content">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('medForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const resultContent = document.getElementById('result-content');
+            resultContent.innerHTML = 'Loading...';
+
+            const formData = new FormData(this);
+
+            fetch('/perform_task', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                resultContent.innerHTML = data.result;
+                if (data.image) {
+                    const img = document.createElement('img');
+                    img.src = `data:image/png;base64,${data.image}`;
+                    resultContent.appendChild(img);
+                }
+            })
+            .catch(error => {
+                resultContent.innerHTML = 'Error occurred: ' + error;
+            });
+        });
+    </script>
+</body>
+</html>
