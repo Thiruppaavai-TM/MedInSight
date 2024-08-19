@@ -115,7 +115,6 @@ pymongo
 pyOpenSSL
 pyparsing
 pypiwin32
-PyRect
 PyScreeze
 PySocks
 python-dateutil
