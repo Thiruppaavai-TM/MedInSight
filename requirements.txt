@@ -1,6 +1,6 @@
 --only-binary :all:
-thinc==8.1.0
-blis==0.7.9
+thinc
+blis
 
 altair
 annotated-types
