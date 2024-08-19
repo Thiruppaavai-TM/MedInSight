@@ -104,8 +104,6 @@ pure-eval
 pyarrow
 pyasn1
 pyasn1_modules
-PyAudio
-PyAutoGUI
 pycparser
 pydantic
 pydantic_core
