@@ -122,11 +122,6 @@ pyOpenSSL
 pyparsing
 pyperclip
 pypiwin32
-PyQt5
-pyqt5-plugins
-PyQt5-Qt5
-PyQt5-sip
-pyqt5-tools
 PyRect
 PyScreeze
 PySocks
