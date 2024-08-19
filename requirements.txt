@@ -112,7 +112,6 @@ PyDispatcher
 Pygments
 PyJWT
 pymongo
-PyMsgBox
 pyOpenSSL
 pyparsing
 pyperclip
