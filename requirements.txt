@@ -79,7 +79,6 @@ mathparse
 matplotlib
 matplotlib-inline
 mdurl
-MouseInfo
 nest-asyncio
 networkx
 nltk
