@@ -119,7 +119,6 @@ PySocks
 python-dateutil
 python-dotenv
 pyttsx3
-pytweening
 pytz
 pywhatkit
 PyYAML
