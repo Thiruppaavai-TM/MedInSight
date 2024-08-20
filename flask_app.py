@@ -164,4 +164,4 @@ if __name__ == '__main__':
     if not os.path.exists('static/images'):
         os.makedirs('static/images')
         
-    app.run(debug=True)
+    app.run()
